@@ -33,7 +33,7 @@
 &trans     &trans   &trans   &trans    &trans &trans &trans   &kp UP   &trans    &trans
 &kp LSHIFT &kp LGUI &kp LALT &kp LCTRL &kp TAB &trans &kp LEFT &kp DOWN &kp RIGHT &trans
 &trans     &trans   &trans   &trans    &trans &trans &trans   &trans   &trans    &trans
-&trans     &trans   &trans   &trans    &trans &trans
+&bootloader      &trans   &reset   &trans    &trans &trans
                         >;
                 };
 
