@@ -30,10 +30,10 @@
 
                 nav_layer {
                         bindings = <
-&trans        &trans          &trans          &trans       &bootloader &trans         &trans      &kp   UP &trans    &trans
-&kp    LSHIFT &kp    LGUI     &kp    LALT     &kp    LCTRL &kp    TAB  &kp    LS(TAB) &kp    LEFT &kp DOWN &kp RIGHT &kp TAB
-&bt    BT_CLR &bt    BT_SEL 1 &bt    BT_SEL 2 &trans       &trans      &trans         &trans      &trans   &trans    &trans
-&reset        &trans          &reset          &trans       &trans      &trans
+&kp C_PREV    &kp C_NEXT      &kp C_VOL_DN    &kp C_VOL_UP &kp C_PP   &trans         &trans      &kp   UP &trans    &trans
+&kp    LSHIFT &kp    LGUI     &kp    LALT     &kp    LCTRL &kp    TAB &kp    LS(TAB) &kp    LEFT &kp DOWN &kp RIGHT &kp TAB
+&bt    BT_CLR &bt    BT_SEL 1 &bt    BT_SEL 2 &trans       &bootloader     &trans         &trans      &trans   &trans    &trans
+&reset        &trans          &reset          &trans       &trans     &trans
                         >;
                 };
 
